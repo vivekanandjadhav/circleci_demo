@@ -4,7 +4,7 @@
 cd ~/circleci-test
 
 #pull from the branch
-git pull origin main
+git pull origin master
 
 # followed by instructions specific to your project that you used to do manually
 npm install
