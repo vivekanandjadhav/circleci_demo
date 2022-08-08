@@ -7,8 +7,7 @@ jobs:
       - image: arvindr226/alpine-ssh
     steps:
       - checkout
-      - run: ssh -oStrictHostKeyChecking=no -v root@43.205.136.66 "./deploy.sh"
-
+      - run: echo 'Hello ' 
 # Orchestrate our job run sequence
 workflows:
   version: 2
